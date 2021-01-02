@@ -278,7 +278,7 @@ namespace SynthLib2Parser {
             Out << " ";
             Arg->Accept(this);
         }
-        Out << ")" << endl;
+        Out << ")";
     }
 
     void PrintVisitor::VisitLiteralGTerm(const LiteralGTerm* TheTerm) 

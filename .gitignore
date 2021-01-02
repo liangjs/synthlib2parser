@@ -36,3 +36,9 @@ src/SynthLib2Parser.tab.h
 *.exe
 *.out
 *.app
+
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
